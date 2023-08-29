@@ -27,8 +27,9 @@
         <dependency>
             <groupId>com.github.markusbernhardt</groupId>
             <artifactId>robotframework-selenium2library-java</artifactId>
-            <version>1.4.0.8</version>
+            <version>1.4.0.6</version>
         </dependency>
+
 
     </dependencies>
 <build>
@@ -40,6 +41,8 @@
         <executions>
             <execution>
                 <goals>
+                    <goal>acceptance-test</goal>
+                    <goal>verify</goal>
                     <goal>run</goal>
                 </goals>
             </execution>
